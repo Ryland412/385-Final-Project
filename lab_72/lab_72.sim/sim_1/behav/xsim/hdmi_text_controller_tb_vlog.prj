@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../lab_71_two.gen/sources_1/bd/mb_block/ipshared/7698" --include "../../../../lab_71_two.gen/sources_1/bd/mb_block/ipshared/ec67/hdl" \
+"../../../../lab_71_two.srcs/sim_1/imports/lab7_1_provided_fa25/hdmi_text_controller_v1_0.sv" \
+"../../../../lab_71_two.srcs/sim_1/imports/lab7_1_provided_fa25/hdmi_text_controller_v1_0_AXI.sv" \
+"../../../../lab_71_two.srcs/sim_1/imports/lab7_1_provided_fa25/hdmi_text_controller_v1_0_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

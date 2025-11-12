@@ -1,0 +1,17 @@
+#include "hdmi_text_controller.h"
+#include "stdio.h"
+#include "string.h"
+#include "sleep.h"
+
+int main(){
+	while(1){
+		hdmiTestWeek2();
+		setColorPalette(1, 0x0, 0xF, 0x0);
+
+		// VRAM entry at (0,0): bg=0, fg=1, char='A'
+		hdmi_ctrl->VRAM[0] = (1 << 4) | 0;
+		hdmi_ctrl->VRAM[1] = 'A';
+	}
+
+	return 0;
+}

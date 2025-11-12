@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Nov  7 20:27:55 2025
+# Process ID: 47488
+# Current directory: C:/Users/KCDro/uiuc/385/lab_72
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent46524 C:\Users\KCDro\uiuc\385\lab_72\lab_72.xpr
+# Log file: C:/Users/KCDro/uiuc/385/lab_72/vivado.log
+# Journal file: C:/Users/KCDro/uiuc/385/lab_72\vivado.jou
+# Running On: Rycomp, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16986 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/KCDro/uiuc/385/lab_72/lab_72.xpr
+update_compile_order -fileset sources_1
+ipx::edit_ip_in_project -upgrade true -name hdmi_text_controller_v1_0_project -directory C:/Users/KCDro/uiuc/385/lab_72/lab_72.tmp/hdmi_text_controller_v1_0_project c:/Users/KCDro/uiuc/385/ip_repo/hdmi_text_controller_1_0/component.xml
+update_compile_order -fileset sources_1
+close_project
