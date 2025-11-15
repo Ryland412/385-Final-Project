@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri Nov  7 03:12:06 2025
-| Host         : Sam running 64-bit major release  (build 9200)
+| Date         : Thu Nov 13 18:30:42 2025
+| Host         : Rycomp running 64-bit major release  (build 9200)
 | Command      : report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
 | Design       : mb_usb_hdmi_top
 | Device       : xc7s50csga324-1
@@ -23,7 +23,7 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 47
+             Violations found: 67
 +-----------+------------------+--------------------------------------------------------+------------+
 | Rule      | Severity         | Description                                            | Violations |
 +-----------+------------------+--------------------------------------------------------+------------+
@@ -32,6 +32,7 @@ Table of Contents
 | TIMING-7  | Critical Warning | No common node between related clocks                  | 2          |
 | TIMING-17 | Critical Warning | Non-clocked sequential cell                            | 32         |
 | TIMING-27 | Critical Warning | Invalid primary clock on hierarchical pin              | 1          |
+| DPIR-1    | Warning          | Asynchronous driver check                              | 20         |
 | LUTAR-1   | Warning          | LUT drives async reset alert                           | 4          |
 | TIMING-9  | Warning          | Unknown CDC Logic                                      | 1          |
 | TIMING-18 | Warning          | Missing input or output delay                          | 3          |
@@ -230,6 +231,106 @@ Invalid primary clock on hierarchical pin
 A primary clock mb_block_hdmi/hdmi_text_controller_0/inst/clk_wiz/inst/clk_in1 is created on an inappropriate internal pin mb_block_hdmi/hdmi_text_controller_0/inst/clk_wiz/inst/clk_in1. It is not recommended to create a primary clock on a hierarchical pin when its driver pin has a fanout connected to multiple clock pins
 Related violations: <none>
 
+DPIR-1#1 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#2 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#3 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#4 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#5 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#6 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#7 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#8 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#9 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#10 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/A[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#11 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#12 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#13 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[2] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#14 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[3] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#15 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[4] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#16 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[5] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#17 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[6] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#18 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[7] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#19 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[8] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#20 Warning
+Asynchronous driver check  
+DSP mb_block_hdmi/hdmi_text_controller_0/inst/addrb0 input pin mb_block_hdmi/hdmi_text_controller_0/inst/addrb0/C[9] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
 LUTAR-1#1 Warning
 LUT drives async reset alert  
 LUT cell mb_block_hdmi/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encr/oserdes_m_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) mb_block_hdmi/hdmi_text_controller_0/inst/vga_to_hdmi/inst/encg/dout_reg[9]/CLR,
@@ -288,8 +389,8 @@ Related violations: <none>
 XDCC-7#1 Warning
 Scoped Clock constraint overwritten on the same source  
 A new clock constraint create_clock overrides a previous scoped clock constraint defined on the same source. It is not recommended to override a scoped (typically an IP) clock constraint and could result in unexpected behaviors.
-New: create_clock -period 10.000 -name clk_100 -waveform {0.000 5.000} [get_ports Clk] (Source: C:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.srcs/constrs_1/imports/lab7_1_provided_fa25/mb_usb_hdmi_top.xdc (Line: 1))
-Previous: create_clock -period 10.000 [get_ports Clk] (Source: c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0.xdc (Line: 56))
+New: create_clock -period 10.000 -name clk_100 -waveform {0.000 5.000} [get_ports Clk] (Source: C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.srcs/constrs_1/imports/lab7_1_provided_fa25/mb_usb_hdmi_top.xdc (Line: 1))
+Previous: create_clock -period 10.000 [get_ports Clk] (Source: c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0.xdc (Line: 56))
 Related violations: <none>
 
 

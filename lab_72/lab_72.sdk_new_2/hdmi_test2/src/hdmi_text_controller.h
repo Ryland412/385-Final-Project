@@ -7,8 +7,8 @@
 #include "xstatus.h"
 #include "xparameters.h"
 
-#define COLUMNS 80
-#define ROWS 30
+#define COLUMNS 640
+#define ROWS 480
 #define PALETTE_START 0x2000
 
 #define STUDENT1NETID "<sjwang6>"
@@ -16,10 +16,6 @@
 
 struct TEXT_HDMI_STRUCT {
 	uint8_t             VRAM [ROWS*COLUMNS*2]; //Week 2 - extended VRAM
-	//declare palette registers here, make sure you properly pad in order to correctly account for
-	//gap in address map between VRAM and start of palette and control registers
-
-	uint8_t				padding[3392];
 	uint32_t 			PALETTE_REGS[8];
 	uint32_t            FRAME_COUNT; //control registers should appear immediately after palette
 	uint32_t            DRAWX;

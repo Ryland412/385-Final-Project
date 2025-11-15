@@ -36,3 +36,10 @@ platform config -updatehw {C:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/mb_usb
 platform generate -domains 
 platform clean
 platform generate
+platform active {mb_usb_hdmi_top}
+platform config -updatehw {C:/Users/KCDro/uiuc/385_final/lab_72/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/KCDro/uiuc/385_final/lab_72/mb_usb_hdmi_top.xsa}
+platform clean
+platform generate

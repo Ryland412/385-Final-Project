@@ -4787,3 +4787,988 @@ TRACE::2025-11-07.13:12:07::SCWMssOS::Checking the sw design at  C:/Users/KCDro/
 TRACE::2025-11-07.13:12:07::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2025-11-07.13:12:07::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:23::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:23::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:23::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:23::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:23::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:23::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:23::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-11-13.18:24:24::SCWPlatform::Opened new HwDB with name mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWReader::Active system found as  mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWReader::Handling sysconfig mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWDomain::checking for install qemu data   : 
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:24::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:24::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-11-13.18:24:24::SCWMssOS::No sw design opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:24::SCWMssOS::mss exists loading the mss file  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:24::SCWMssOS::Opened the sw design from mss  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:24::SCWMssOS::Adding the swdes entry C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-11-13.18:24:24::SCWMssOS::updating the scw layer about changes
+TRACE::2025-11-13.18:24:24::SCWMssOS::Opened the sw design.  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:24::SCWMssOS::Saving the mss changes C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-13.18:24:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-13.18:24:24::SCWMssOS::Commit changes completed.
+TRACE::2025-11-13.18:24:24::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-11-13.18:24:24::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:24::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:24::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:24::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:24:24::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:24::SCWReader::No isolation master present  
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Platform location is C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:33::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2025-11-13.18:24:33::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:33::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:33::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:33::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:33::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:33::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top
+TRACE::2025-11-13.18:24:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:33::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:33::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:24:33::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:33::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:33::SCWPlatform::update - Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2025-11-13.18:24:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:33::SCWMssOS::Saving the mss changes C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:33::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-13.18:24:33::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-13.18:24:33::SCWMssOS::Commit changes completed.
+TRACE::2025-11-13.18:24:33::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2025-11-13.18:24:33::SCWMssOS::Removing the swdes entry for  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:33::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:33::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-11-13.18:24:33::SCWPlatform::Opened new HwDB with name mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:24:33::SCWMssOS::Saving the mss changes C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:33::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-11-13.18:24:33::SCWMssOS::Writing the mss file completed C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:33::SCWMssOS::Commit changes completed.
+TRACE::2025-11-13.18:24:33::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:24:33::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:24:33::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:24:33::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:24:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:24:33::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:33::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:24:33::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:24:33::SCWWriter::formatted JSON is {
+	"platformName":	"mb_usb_hdmi_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_usb_hdmi_top",
+	"platHandOff":	"C:/Users/KCDro/uiuc/385_final/lab_72/mb_usb_hdmi_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_usb_hdmi_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_usb_hdmi_top",
+	"systems":	[{
+			"systemName":	"mb_usb_hdmi_top",
+			"systemDesc":	"mb_usb_hdmi_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_usb_hdmi_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a1",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-11-13.18:24:45::SCWMssOS::cleaning the bsp 
+TRACE::2025-11-13.18:24:45::SCWMssOS::System Command Ran  C: & cd  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2025-11-13.18:24:45::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2025-11-13.18:24:45::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2025-11-13.18:24:45::SCWMssOS::make -C microblaze_0/libsrc/hdmi_text_controller_v1_0/src -s clean 
+
+TRACE::2025-11-13.18:24:45::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2025-11-13.18:24:45::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2025-11-13.18:24:46::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2025-11-13.18:24:46::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2025-11-13.18:25:20::SCWPlatform::Started generating the artifacts platform mb_usb_hdmi_top
+TRACE::2025-11-13.18:25:20::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-13.18:25:20::SCWPlatform::Started generating the artifacts for system configuration mb_usb_hdmi_top
+LOG::2025-11-13.18:25:20::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-13.18:25:20::SCWSystem::Not a boot domain 
+LOG::2025-11-13.18:25:20::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-13.18:25:20::SCWDomain::Generating domain artifcats
+TRACE::2025-11-13.18:25:20::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-13.18:25:20::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-13.18:25:20::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:20::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:20::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:20::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:25:20::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:20::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:25:20::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:25:20::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:25:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:25:20::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:25:20::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:25:20::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:25:20::SCWMssOS::Completed writing the mss file at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-13.18:25:20::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:25:20::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2025-11-13.18:25:21::SCWMssOS::doing bsp build ... 
+TRACE::2025-11-13.18:25:21::SCWMssOS::System Command Ran  C: & cd  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-11-13.18:25:22::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-13.18:25:22::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-13.18:25:22::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-13.18:25:22::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-13.18:25:22::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/hdmi_text_controller_v1_0/src"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::make -C microblaze_0/libsrc/hdmi_text_controller_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER
+TRACE::2025-11-13.18:25:22::SCWMssOS::=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-co
+TRACE::2025-11-13.18:25:22::SCWMssOS::mpare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-13.18:25:22::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-13.18:25:22::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2025-11-13.18:25:22::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-13.18:25:22::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-13.18:25:22::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:23::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2025-11-13.18:25:23::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-13.18:25:23::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-13.18:25:23::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:23::SCWMssOS::"Running Make libs in microblaze_0/libsrc/hdmi_text_controller_v1_0/src"
+
+TRACE::2025-11-13.18:25:23::SCWMssOS::make -C microblaze_0/libsrc/hdmi_text_controller_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2025-11-13.18:25:23::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compa
+TRACE::2025-11-13.18:25:23::SCWMssOS::re" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:23::SCWMssOS::"Compiling hdmi_text_controller..."
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-13.18:25:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-13.18:25:24::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-13.18:25:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-13.18:25:24::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/hdmi_text_controller_v1_0/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/hdmi_text_controller_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER
+TRACE::2025-11-13.18:25:24::SCWMssOS::=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-co
+TRACE::2025-11-13.18:25:24::SCWMssOS::mpare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-13.18:25:24::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-13.18:25:24::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-13.18:25:24::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-13.18:25:24::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-13.18:25:24::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-13.18:25:24::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-11-13.18:25:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2025-11-13.18:25:24::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-11-13.18:25:24::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2025-11-13.18:25:24::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2025-11-13.18:25:24::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2025-11-13.18:25:24::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-13.18:25:24::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-13.18:25:24::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2025-11-13.18:25:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-13.18:25:24::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-13.18:25:24::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:25:25::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2025-11-13.18:25:25::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-11-13.18:25:25::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-11-13.18:25:25::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2025-11-13.18:25:25::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2025-11-13.18:25:25::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2025-11-13.18:25:25::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2025-11-13.18:25:25::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2025-11-13.18:25:25::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2025-11-13.18:25:25::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2025-11-13.18:25:25::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2025-11-13.18:25:25::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2025-11-13.18:25:25::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2025-11-13.18:25:25::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2025-11-13.18:25:25::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2025-11-13.18:25:25::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2025-11-13.18:25:25::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2025-11-13.18:25:25::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2025-11-13.18:25:25::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2025-11-13.18:25:25::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2025-11-13.18:25:25::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2025-11-13.18:25:25::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2025-11-13.18:25:25::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2025-11-13.18:25:25::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2025-11-13.18:25:25::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-11-13.18:25:25::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-11-13.18:25:25::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-11-13.18:25:25::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-11-13.18:25:25::SCWSystem::Completed Processing the sysconfig mb_usb_hdmi_top
+LOG::2025-11-13.18:25:25::SCWPlatform::Completed generating the artifacts for system configuration mb_usb_hdmi_top
+TRACE::2025-11-13.18:25:25::SCWPlatform::Started preparing the platform 
+TRACE::2025-11-13.18:25:25::SCWSystem::Writing the bif file for system config mb_usb_hdmi_top
+TRACE::2025-11-13.18:25:25::SCWSystem::dir created 
+TRACE::2025-11-13.18:25:25::SCWSystem::Writing the bif 
+TRACE::2025-11-13.18:25:25::SCWPlatform::Started writing the spfm file 
+TRACE::2025-11-13.18:25:25::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-11-13.18:25:25::SCWPlatform::Completed generating the platform
+TRACE::2025-11-13.18:25:25::SCWMssOS::Saving the mss changes C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:25:25::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-11-13.18:25:25::SCWMssOS::Writing the mss file completed C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:25:25::SCWMssOS::Commit changes completed.
+TRACE::2025-11-13.18:25:25::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:25::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:25::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:25::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:25:25::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:25:25::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:25:25::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:25:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:25:25::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:25:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:25:25::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:25:25::SCWWriter::formatted JSON is {
+	"platformName":	"mb_usb_hdmi_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_usb_hdmi_top",
+	"platHandOff":	"C:/Users/KCDro/uiuc/385_final/lab_72/mb_usb_hdmi_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_usb_hdmi_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_usb_hdmi_top",
+	"systems":	[{
+			"systemName":	"mb_usb_hdmi_top",
+			"systemDesc":	"mb_usb_hdmi_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_usb_hdmi_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-11-13.18:25:25::SCWPlatform::updated the xpfm file.
+TRACE::2025-11-13.18:25:25::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:25::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:25::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:25::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:25:25::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:25:25::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:25:25::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:25:25::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_1
+TRACE::2025-11-13.18:25:25::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:25:25::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:25:25::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:25:25::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:03::SCWPlatform::Clearing the existing platform
+TRACE::2025-11-13.18:32:03::SCWSystem::Clearing the existing sysconfig
+TRACE::2025-11-13.18:32:03::SCWMssOS::Removing the swdes entry for  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:03::SCWSystem::Clearing the domains completed.
+TRACE::2025-11-13.18:32:03::SCWPlatform::Clearing the opened hw db.
+TRACE::2025-11-13.18:32:03::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:03::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:03::SCWPlatform:: Platform location is C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:03::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:03::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:03::SCWPlatform::Removing the HwDB with name C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:03::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:03::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:03::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:03::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:04::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-11-13.18:32:04::SCWPlatform::Opened new HwDB with name mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWReader::Active system found as  mb_usb_hdmi_top
+TRACE::2025-11-13.18:32:04::SCWReader::Handling sysconfig mb_usb_hdmi_top
+TRACE::2025-11-13.18:32:04::SCWDomain::checking for install qemu data   : 
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:04::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2025-11-13.18:32:04::SCWMssOS::No sw design opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:04::SCWMssOS::mss exists loading the mss file  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:04::SCWMssOS::Opened the sw design from mss  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:04::SCWMssOS::Adding the swdes entry C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-11-13.18:32:04::SCWMssOS::updating the scw layer about changes
+TRACE::2025-11-13.18:32:04::SCWMssOS::Opened the sw design.  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:04::SCWMssOS::Saving the mss changes C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-13.18:32:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-13.18:32:04::SCWMssOS::Commit changes completed.
+TRACE::2025-11-13.18:32:04::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2025-11-13.18:32:04::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:04::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:04::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:32:04::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:04::SCWReader::No isolation master present  
+TRACE::2025-11-13.18:32:11::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:11::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:11::SCWPlatform:: Platform location is C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa
+TRACE::2025-11-13.18:32:11::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:11::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:12::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2025-11-13.18:32:12::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:12::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:12::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:12::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:12::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:12::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_3
+TRACE::2025-11-13.18:32:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:12::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:32:12::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:12::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/tempdsa/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:12::SCWPlatform::update - Opened existing hwdb mb_usb_hdmi_top_4
+TRACE::2025-11-13.18:32:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:12::SCWMssOS::Saving the mss changes C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:12::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2025-11-13.18:32:12::SCWMssOS::Completed writemss as part of save.
+TRACE::2025-11-13.18:32:12::SCWMssOS::Commit changes completed.
+TRACE::2025-11-13.18:32:12::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2025-11-13.18:32:12::SCWMssOS::Removing the swdes entry for  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:12::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:12::SCWPlatform::Do not have an existing db opened. 
+TRACE::2025-11-13.18:32:12::SCWPlatform::Opened new HwDB with name mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:12::SCWMssOS::Saving the mss changes C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:12::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-11-13.18:32:12::SCWMssOS::Writing the mss file completed C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:12::SCWMssOS::Commit changes completed.
+TRACE::2025-11-13.18:32:12::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:12::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:12::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:12::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:12::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:32:12::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:12::SCWWriter::formatted JSON is {
+	"platformName":	"mb_usb_hdmi_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_usb_hdmi_top",
+	"platHandOff":	"C:/Users/KCDro/uiuc/385_final/lab_72/mb_usb_hdmi_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_usb_hdmi_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_usb_hdmi_top",
+	"systems":	[{
+			"systemName":	"mb_usb_hdmi_top",
+			"systemDesc":	"mb_usb_hdmi_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_usb_hdmi_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a1",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2025-11-13.18:32:21::SCWMssOS::cleaning the bsp 
+TRACE::2025-11-13.18:32:21::SCWMssOS::System Command Ran  C: & cd  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2025-11-13.18:32:21::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2025-11-13.18:32:22::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2025-11-13.18:32:22::SCWMssOS::make -C microblaze_0/libsrc/hdmi_text_controller_v1_0/src -s clean 
+
+TRACE::2025-11-13.18:32:22::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2025-11-13.18:32:22::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2025-11-13.18:32:22::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2025-11-13.18:32:22::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2025-11-13.18:32:38::SCWPlatform::Started generating the artifacts platform mb_usb_hdmi_top
+TRACE::2025-11-13.18:32:38::SCWPlatform::Sanity checking of platform is completed
+LOG::2025-11-13.18:32:38::SCWPlatform::Started generating the artifacts for system configuration mb_usb_hdmi_top
+LOG::2025-11-13.18:32:38::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2025-11-13.18:32:38::SCWSystem::Not a boot domain 
+LOG::2025-11-13.18:32:38::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2025-11-13.18:32:38::SCWDomain::Generating domain artifcats
+TRACE::2025-11-13.18:32:38::SCWMssOS::Generating standalone artifcats
+TRACE::2025-11-13.18:32:38::SCWMssOS:: Copying the user libraries. 
+TRACE::2025-11-13.18:32:38::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:38::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:38::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:38::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:38::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:38::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:38::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:38::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:38::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:38::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:32:38::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:38::SCWMssOS::Completed writing the mss file at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2025-11-13.18:32:38::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:38::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2025-11-13.18:32:40::SCWMssOS::doing bsp build ... 
+TRACE::2025-11-13.18:32:40::SCWMssOS::System Command Ran  C: & cd  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2025-11-13.18:32:40::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-13.18:32:40::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-13.18:32:40::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-13.18:32:40::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-13.18:32:40::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/hdmi_text_controller_v1_0/src"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::make -C microblaze_0/libsrc/hdmi_text_controller_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER
+TRACE::2025-11-13.18:32:40::SCWMssOS::=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-co
+TRACE::2025-11-13.18:32:40::SCWMssOS::mpare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-13.18:32:40::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-13.18:32:40::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2025-11-13.18:32:40::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-13.18:32:40::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-13.18:32:40::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-13.18:32:41::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-13.18:32:41::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Running Make libs in microblaze_0/libsrc/hdmi_text_controller_v1_0/src"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -C microblaze_0/libsrc/hdmi_text_controller_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb
+TRACE::2025-11-13.18:32:41::SCWMssOS::-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compa
+TRACE::2025-11-13.18:32:41::SCWMssOS::re" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Compiling hdmi_text_controller..."
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-13.18:32:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-13.18:32:41::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2025-11-13.18:32:41::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2025-11-13.18:32:41::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/hdmi_text_controller_v1_0/src"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -C microblaze_0/libsrc/hdmi_text_controller_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER
+TRACE::2025-11-13.18:32:41::SCWMssOS::=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-co
+TRACE::2025-11-13.18:32:41::SCWMssOS::mpare" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-13.18:32:41::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-13.18:32:41::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2025-11-13.18:32:41::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2025-11-13.18:32:41::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2025-11-13.18:32:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2025-11-13.18:32:41::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2025-11-13.18:32:41::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-11-13.18:32:42::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2025-11-13.18:32:42::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2025-11-13.18:32:42::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2025-11-13.18:32:42::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2025-11-13.18:32:42::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2025-11-13.18:32:42::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2025-11-13.18:32:42::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2025-11-13.18:32:42::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2025-11-13.18:32:42::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2025-11-13.18:32:42::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2025-11-13.18:32:42::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2025-11-13.18:32:43::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2025-11-13.18:32:43::SCWMssOS::make --no-print-directory archive
+
+TRACE::2025-11-13.18:32:43::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2025-11-13.18:32:43::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2025-11-13.18:32:43::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2025-11-13.18:32:43::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2025-11-13.18:32:43::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2025-11-13.18:32:43::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2025-11-13.18:32:43::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2025-11-13.18:32:43::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2025-11-13.18:32:43::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2025-11-13.18:32:43::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2025-11-13.18:32:43::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2025-11-13.18:32:43::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2025-11-13.18:32:43::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2025-11-13.18:32:43::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2025-11-13.18:32:43::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2025-11-13.18:32:43::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2025-11-13.18:32:43::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2025-11-13.18:32:43::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2025-11-13.18:32:43::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2025-11-13.18:32:43::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2025-11-13.18:32:43::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2025-11-13.18:32:43::SCWMssOS::'Finished building libraries'
+
+TRACE::2025-11-13.18:32:43::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2025-11-13.18:32:43::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2025-11-13.18:32:43::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2025-11-13.18:32:43::SCWSystem::Completed Processing the sysconfig mb_usb_hdmi_top
+LOG::2025-11-13.18:32:43::SCWPlatform::Completed generating the artifacts for system configuration mb_usb_hdmi_top
+TRACE::2025-11-13.18:32:43::SCWPlatform::Started preparing the platform 
+TRACE::2025-11-13.18:32:43::SCWSystem::Writing the bif file for system config mb_usb_hdmi_top
+TRACE::2025-11-13.18:32:43::SCWSystem::dir created 
+TRACE::2025-11-13.18:32:43::SCWSystem::Writing the bif 
+TRACE::2025-11-13.18:32:43::SCWPlatform::Started writing the spfm file 
+TRACE::2025-11-13.18:32:43::SCWPlatform::Started writing the xpfm file 
+TRACE::2025-11-13.18:32:43::SCWPlatform::Completed generating the platform
+TRACE::2025-11-13.18:32:43::SCWMssOS::Saving the mss changes C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:43::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2025-11-13.18:32:43::SCWMssOS::Writing the mss file completed C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:43::SCWMssOS::Commit changes completed.
+TRACE::2025-11-13.18:32:43::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:43::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:43::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:43::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:43::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:43::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:43::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:43::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:32:43::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:43::SCWWriter::formatted JSON is {
+	"platformName":	"mb_usb_hdmi_top",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"mb_usb_hdmi_top",
+	"platHandOff":	"C:/Users/KCDro/uiuc/385_final/lab_72/mb_usb_hdmi_top.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mb_usb_hdmi_top.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"mb_usb_hdmi_top",
+	"systems":	[{
+			"systemName":	"mb_usb_hdmi_top",
+			"systemDesc":	"mb_usb_hdmi_top",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"mb_usb_hdmi_top",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2025-11-13.18:32:43::SCWPlatform::updated the xpfm file.
+TRACE::2025-11-13.18:32:43::SCWPlatform::Trying to open the hw design at C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:43::SCWPlatform::DSA given C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:43::SCWPlatform::DSA absoulate path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:43::SCWPlatform::DSA directory C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw
+TRACE::2025-11-13.18:32:43::SCWPlatform:: Platform Path C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa
+TRACE::2025-11-13.18:32:43::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2025-11-13.18:32:43::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:43::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_5
+TRACE::2025-11-13.18:32:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2025-11-13.18:32:43::SCWMssOS::Checking the sw design at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2025-11-13.18:32:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2025-11-13.18:32:43::SCWMssOS::Sw design exists and opened at  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/microblaze_0/standalone_microblaze_0/bsp/system.mss

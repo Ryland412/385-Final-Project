@@ -48,4 +48,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_ax
 # IP: bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/mb_block_hdmi_text_controller_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb_block_hdmi_text_controller_0_0 || ORIG_REF_NAME==mb_block_hdmi_text_controller_0_0} -quiet] -quiet
 
-# XDC: c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/mb_block_ooc.xdc
+# XDC: c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/mb_block_ooc.xdc

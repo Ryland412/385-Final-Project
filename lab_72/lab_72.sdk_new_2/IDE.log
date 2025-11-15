@@ -1825,3 +1825,166 @@ con
 
 21:19:45 INFO  : Launch script is exported to file 'C:\Users\KCDro\uiuc\385\lab_72\lab_72.sdk_new_2\hdmi_test2_system\_ide\scripts\debugger_hdmi_test2-default.tcl'
 22:24:34 INFO  : Disconnected from the channel tcfchan#1.
+18:21:20 DEBUG : Logs will be stored at 'C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/IDE.log'.
+18:21:21 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\KCDro\uiuc\385_final\lab_72\lab_72.sdk_new_2\temp_xsdb_launch_script.tcl
+18:21:23 INFO  : Platform repository initialization has completed.
+18:21:24 INFO  : Registering command handlers for Vitis TCF services
+18:21:25 INFO  : XSCT server has started successfully.
+18:21:29 INFO  : Successfully done setting XSCT server connection channel  
+18:21:29 INFO  : plnx-install-location is set to ''
+18:21:29 INFO  : Successfully done query RDI_DATADIR 
+18:21:29 INFO  : Successfully done setting workspace for the tool. 
+18:24:33 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+18:24:45 INFO  : Result from executing command 'removePlatformRepo': 
+18:25:25 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+18:25:25 INFO  : Result from executing command 'getPlatforms': mb_usb_hdmi_top|C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/mb_usb_hdmi_top.xpfm
+18:25:26 INFO  : Checking for BSP changes to sync application flags for project 'hdmi_test2'...
+18:25:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:25:54 INFO  : Jtag cable 'RealDigital Boo 887100000003A' is selected.
+18:25:54 INFO  : 'jtag frequency' command is executed.
+18:25:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000003A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+18:25:55 INFO  : Device configured successfully with "C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/_ide/bitstream/mb_usb_hdmi_top.bit"
+18:25:55 INFO  : Context for processor 'microblaze_0' is selected.
+18:25:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+18:25:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:25:55 INFO  : Context for processor 'microblaze_0' is selected.
+18:25:55 INFO  : System reset is completed.
+18:25:58 INFO  : 'after 3000' command is executed.
+18:25:58 INFO  : Context for processor 'microblaze_0' is selected.
+18:25:59 INFO  : The application 'C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/Debug/hdmi_test2.elf' is downloaded to processor 'microblaze_0'.
+18:25:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000003A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/Debug/hdmi_test2.elf
+----------------End of Script----------------
+
+18:25:59 INFO  : Context for processor 'microblaze_0' is selected.
+18:25:59 INFO  : 'con' command is executed.
+18:25:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:25:59 INFO  : Launch script is exported to file 'C:\Users\KCDro\uiuc\385_final\lab_72\lab_72.sdk_new_2\hdmi_test2_system\_ide\scripts\debugger_hdmi_test2-default.tcl'
+18:26:20 INFO  : Disconnected from the channel tcfchan#3.
+18:26:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:26:21 INFO  : Jtag cable 'RealDigital Boo 887100000003A' is selected.
+18:26:21 INFO  : 'jtag frequency' command is executed.
+18:26:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000003A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+18:26:22 INFO  : Device configured successfully with "C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/_ide/bitstream/mb_usb_hdmi_top.bit"
+18:26:23 INFO  : Context for processor 'microblaze_0' is selected.
+18:26:23 INFO  : Hardware design and registers information is loaded from 'C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+18:26:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:26:23 INFO  : Context for processor 'microblaze_0' is selected.
+18:26:23 INFO  : System reset is completed.
+18:26:26 INFO  : 'after 3000' command is executed.
+18:26:26 INFO  : Context for processor 'microblaze_0' is selected.
+18:26:26 INFO  : The application 'C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/Debug/hdmi_test2.elf' is downloaded to processor 'microblaze_0'.
+18:26:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000003A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/Debug/hdmi_test2.elf
+----------------End of Script----------------
+
+18:26:26 INFO  : Context for processor 'microblaze_0' is selected.
+18:26:26 INFO  : 'con' command is executed.
+18:26:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:26:26 INFO  : Launch script is exported to file 'C:\Users\KCDro\uiuc\385_final\lab_72\lab_72.sdk_new_2\hdmi_test2_system\_ide\scripts\debugger_hdmi_test2-default.tcl'
+18:27:33 INFO  : Disconnected from the channel tcfchan#4.
+18:27:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:27:34 INFO  : Jtag cable 'RealDigital Boo 887100000003A' is selected.
+18:27:34 INFO  : 'jtag frequency' command is executed.
+18:27:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000003A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+18:27:36 INFO  : Device configured successfully with "C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/_ide/bitstream/mb_usb_hdmi_top.bit"
+18:27:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:27:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+18:27:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:27:36 INFO  : Context for processor 'microblaze_0' is selected.
+18:27:36 INFO  : System reset is completed.
+18:27:39 INFO  : 'after 3000' command is executed.
+18:27:39 INFO  : Context for processor 'microblaze_0' is selected.
+18:27:39 INFO  : The application 'C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/Debug/hdmi_test2.elf' is downloaded to processor 'microblaze_0'.
+18:27:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000003A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/Debug/hdmi_test2.elf
+----------------End of Script----------------
+
+18:27:39 INFO  : Context for processor 'microblaze_0' is selected.
+18:27:39 INFO  : 'con' command is executed.
+18:27:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:27:39 INFO  : Launch script is exported to file 'C:\Users\KCDro\uiuc\385_final\lab_72\lab_72.sdk_new_2\hdmi_test2_system\_ide\scripts\debugger_hdmi_test2-default.tcl'
+18:32:12 INFO  : Hardware specification for platform project 'mb_usb_hdmi_top' is updated.
+18:32:21 INFO  : Result from executing command 'removePlatformRepo': 
+18:32:43 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_top
+18:32:43 INFO  : Result from executing command 'getPlatforms': mb_usb_hdmi_top|C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/mb_usb_hdmi_top.xpfm
+18:32:43 INFO  : Checking for BSP changes to sync application flags for project 'hdmi_test2'...
+18:32:54 INFO  : Disconnected from the channel tcfchan#5.
+18:32:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:32:55 INFO  : Jtag cable 'RealDigital Boo 887100000003A' is selected.
+18:32:55 INFO  : 'jtag frequency' command is executed.
+18:32:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000003A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+18:32:57 INFO  : Device configured successfully with "C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/_ide/bitstream/mb_usb_hdmi_top.bit"
+18:32:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa'.
+18:32:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+18:32:57 INFO  : Context for processor 'microblaze_0' is selected.
+18:32:57 INFO  : System reset is completed.
+18:33:00 INFO  : 'after 3000' command is executed.
+18:33:00 INFO  : Context for processor 'microblaze_0' is selected.
+18:33:00 INFO  : The application 'C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/Debug/hdmi_test2.elf' is downloaded to processor 'microblaze_0'.
+18:33:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000003A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/_ide/bitstream/mb_usb_hdmi_top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/KCDro/uiuc/385/lab_72/lab_72.sdk_new_2/mb_usb_hdmi_top/export/mb_usb_hdmi_top/hw/mb_usb_hdmi_top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.sdk_new_2/hdmi_test2/Debug/hdmi_test2.elf
+----------------End of Script----------------
+
+18:33:00 INFO  : Context for processor 'microblaze_0' is selected.
+18:33:00 INFO  : 'con' command is executed.
+18:33:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+18:33:00 INFO  : Launch script is exported to file 'C:\Users\KCDro\uiuc\385_final\lab_72\lab_72.sdk_new_2\hdmi_test2_system\_ide\scripts\debugger_hdmi_test2-default.tcl'
+21:19:46 INFO  : Disconnected from the channel tcfchan#8.

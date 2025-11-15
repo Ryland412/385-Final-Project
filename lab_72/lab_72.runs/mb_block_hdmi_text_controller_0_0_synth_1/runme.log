@@ -10,9 +10,8 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source mb_block_hdmi_text_controller_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1002.398 ; gain = 118.062
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Samwa/ALL_ece385/ECE385_github/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/KCDro/uiuc/385_final/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_block_hdmi_text_controller_0_0
 Command: synth_design -top mb_block_hdmi_text_controller_0_0 -part xc7s50csga324-1 -incremental_mode off -mode out_of_context
@@ -22,56 +21,32 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
 INFO: [Device 21-403] Loading part xc7s50csga324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 62760
-
-*** Running vivado
-    with args -log mb_block_hdmi_text_controller_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_block_hdmi_text_controller_0_0.tcl
-
-
-
-****** Vivado v2022.2 (64-bit)
-  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
-  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-
-source mb_block_hdmi_text_controller_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1003.000 ; gain = 117.953
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Samwa/ALL_ece385/ECE385_github/ip_repo'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_block_hdmi_text_controller_0_0
-Command: synth_design -top mb_block_hdmi_text_controller_0_0 -part xc7s50csga324-1 -incremental_mode off -mode out_of_context
-Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
-INFO: [Device 21-403] Loading part xc7s50csga324-1
-INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
-INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 61636
+INFO: [Synth 8-7075] Helper process launched with PID 13280
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
-INFO: [Synth 8-11241] undeclared symbol 'bram_ena', assumed default net type 'wire' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:116]
-INFO: [Synth 8-11241] undeclared symbol 'bram_wea', assumed default net type 'wire' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:117]
-INFO: [Synth 8-11241] undeclared symbol 'bram_addra', assumed default net type 'wire' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:118]
-INFO: [Synth 8-11241] undeclared symbol 'bram_dina', assumed default net type 'wire' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:119]
-INFO: [Synth 8-11241] undeclared symbol 'bram_douta', assumed default net type 'wire' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:120]
-WARNING: [Synth 8-8895] 'bram_ena' is already implicitly declared on line 116 [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:133]
-WARNING: [Synth 8-8895] 'bram_wea' is already implicitly declared on line 117 [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:134]
-WARNING: [Synth 8-8895] 'bram_addra' is already implicitly declared on line 118 [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:135]
-WARNING: [Synth 8-8895] 'bram_dina' is already implicitly declared on line 119 [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:136]
-WARNING: [Synth 8-8895] 'bram_douta' is already implicitly declared on line 120 [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:137]
-WARNING: [Synth 8-11065] parameter 'CTRLTOKEN0' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:145]
-WARNING: [Synth 8-11065] parameter 'CTRLTOKEN1' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:146]
-WARNING: [Synth 8-11065] parameter 'CTRLTOKEN2' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:147]
-WARNING: [Synth 8-11065] parameter 'CTRLTOKEN3' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:148]
+WARNING: [Synth 8-10388] /* is inside a comment [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/Color_Mapper.sv:148]
+INFO: [Synth 8-11241] undeclared symbol 'bram_ena', assumed default net type 'wire' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:117]
+INFO: [Synth 8-11241] undeclared symbol 'bram_wea', assumed default net type 'wire' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:118]
+INFO: [Synth 8-11241] undeclared symbol 'bram_addra', assumed default net type 'wire' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:119]
+INFO: [Synth 8-11241] undeclared symbol 'bram_dina', assumed default net type 'wire' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:120]
+INFO: [Synth 8-11241] undeclared symbol 'bram_douta', assumed default net type 'wire' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:121]
+WARNING: [Synth 8-8895] 'bram_ena' is already implicitly declared on line 117 [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:134]
+WARNING: [Synth 8-8895] 'bram_wea' is already implicitly declared on line 118 [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:135]
+WARNING: [Synth 8-8895] 'bram_addra' is already implicitly declared on line 119 [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:136]
+WARNING: [Synth 8-8895] 'bram_dina' is already implicitly declared on line 120 [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:137]
+WARNING: [Synth 8-8895] 'bram_douta' is already implicitly declared on line 121 [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:138]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN0' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:145]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN1' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:146]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN2' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:147]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN3' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:148]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1818.203 ; gain = 405.527
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1188.938 ; gain = 407.281
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'mb_block_hdmi_text_controller_0_0' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/synth/mb_block_hdmi_text_controller_0_0.sv:53]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_text_controller_v1_0' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:10]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_text_controller_v1_0_AXI' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0_AXI.sv:28]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0_AXI' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0_AXI.sv:28]
-INFO: [Synth 8-6157] synthesizing module 'bram' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/bram.sv:23]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/blk_mem_gen_0_1/synth/blk_mem_gen_0.vhd:76]
+INFO: [Synth 8-6157] synthesizing module 'mb_block_hdmi_text_controller_0_0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/synth/mb_block_hdmi_text_controller_0_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_text_controller_v1_0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:10]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_text_controller_v1_0_AXI' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0_AXI.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0_AXI' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0_AXI.sv:28]
+INFO: [Synth 8-6157] synthesizing module 'bram' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/bram.sv:23]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/blk_mem_gen_0_3/synth/blk_mem_gen_0.vhd:76]
 	Parameter C_FAMILY bound to: spartan7 - type: string 
 	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
@@ -99,13 +74,13 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/Samwa/ALL_ece3
 	Parameter C_HAS_ENA bound to: 1 - type: integer 
 	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
 	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
-	Parameter C_WEA_WIDTH bound to: 4 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
 	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
-	Parameter C_WRITE_WIDTH_A bound to: 32 - type: integer 
-	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
-	Parameter C_WRITE_DEPTH_A bound to: 1200 - type: integer 
-	Parameter C_READ_DEPTH_A bound to: 1200 - type: integer 
-	Parameter C_ADDRA_WIDTH bound to: 11 - type: integer 
+	Parameter C_WRITE_WIDTH_A bound to: 8 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 8 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 307200 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 307200 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 19 - type: integer 
 	Parameter C_HAS_RSTB bound to: 0 - type: integer 
 	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
 	Parameter C_RSTRAM_B bound to: 0 - type: integer 
@@ -113,15 +88,15 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/Samwa/ALL_ece3
 	Parameter C_HAS_ENB bound to: 1 - type: integer 
 	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
 	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
-	Parameter C_WEB_WIDTH bound to: 4 - type: integer 
-	Parameter C_WRITE_MODE_B bound to: READ_FIRST - type: string 
-	Parameter C_WRITE_WIDTH_B bound to: 32 - type: integer 
-	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
-	Parameter C_WRITE_DEPTH_B bound to: 1200 - type: integer 
-	Parameter C_READ_DEPTH_B bound to: 1200 - type: integer 
-	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 8 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 8 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 307200 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 307200 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 19 - type: integer 
 	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
-	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
 	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
 	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
 	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
@@ -134,7 +109,7 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/Samwa/ALL_ece3
 	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
 	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
 	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
 	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
 	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
 	Parameter C_USE_URAM bound to: 0 - type: integer 
@@ -144,96 +119,73 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/Samwa/ALL_ece3
 	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
-	Parameter C_COUNT_36K_BRAM bound to: 2 - type: string 
+	Parameter C_COUNT_36K_BRAM bound to: 75 - type: string 
 	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
-	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     11.0826 mW - type: string 
-INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/blk_mem_gen_0_1/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/blk_mem_gen_0_1/synth/blk_mem_gen_0.vhd:249]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/blk_mem_gen_0_1/synth/blk_mem_gen_0.vhd:76]
-INFO: [Synth 8-6155] done synthesizing module 'bram' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/bram.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'vga_controller' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/VGA_controller.sv:26]
-INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/VGA_controller.sv:26]
-WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:164]
-WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:164]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.v:69]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1_clk_wiz' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1_clk_wiz.v:69]
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     5.097 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/blk_mem_gen_0_3/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/blk_mem_gen_0_3/synth/blk_mem_gen_0.vhd:249]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/blk_mem_gen_0_3/synth/blk_mem_gen_0.vhd:76]
+WARNING: [Synth 8-689] width (4) of port connection 'wea' does not match port width (1) of module 'blk_mem_gen_0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/bram.sv:46]
+WARNING: [Synth 8-689] width (32) of port connection 'dina' does not match port width (8) of module 'blk_mem_gen_0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/bram.sv:48]
+WARNING: [Synth 8-689] width (32) of port connection 'douta' does not match port width (8) of module 'blk_mem_gen_0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/bram.sv:49]
+WARNING: [Synth 8-689] width (32) of port connection 'doutb' does not match port width (8) of module 'blk_mem_gen_0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/bram.sv:56]
+INFO: [Synth 8-6155] done synthesizing module 'bram' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/bram.sv:23]
+WARNING: [Synth 8-689] width (19) of port connection 'addra' does not match port width (11) of module 'bram' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:150]
+WARNING: [Synth 8-689] width (8) of port connection 'douta' does not match port width (32) of module 'bram' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:152]
+WARNING: [Synth 8-689] width (19) of port connection 'addrb' does not match port width (11) of module 'bram' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:156]
+WARNING: [Synth 8-689] width (8) of port connection 'doutb' does not match port width (32) of module 'bram' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:157]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/VGA_controller.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/VGA_controller.sv:26]
+WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:165]
+WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:165]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.v:69]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_1_clk_wiz' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1_clk_wiz.v:69]
 INFO: [Synth 8-6157] synthesizing module 'IBUF' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:71326]
 INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:71326]
 INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:79852]
 INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:79852]
 INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
 INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1_clk_wiz' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1_clk_wiz.v:69]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.v:69]
-INFO: [Synth 8-6157] synthesizing module 'color_mapper' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/Color_Mapper.sv:17]
-INFO: [Synth 8-6157] synthesizing module 'font_rom' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/font_rom.sv:1]
-INFO: [Synth 8-6155] done synthesizing module 'font_rom' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/font_rom.sv:1]
-INFO: [Synth 8-226] default block is never used [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/Color_Mapper.sv:58]
-INFO: [Synth 8-6155] done synthesizing module 'color_mapper' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/Color_Mapper.sv:17]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_1' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/synth/hdmi_tx_1.v:53]
-INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_v1_0' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/hdmi_tx_v1_0.v:70]
-INFO: [Synth 8-6157] synthesizing module 'srldelay' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/srldelay.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1_clk_wiz' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1_clk_wiz.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_1' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.v:69]
+INFO: [Synth 8-6157] synthesizing module 'color_mapper' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/Color_Mapper.sv:17]
+INFO: [Synth 8-6155] done synthesizing module 'color_mapper' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/Color_Mapper.sv:17]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_1' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/synth/hdmi_tx_1.v:53]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_v1_0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/hdmi_tx_v1_0.v:70]
+INFO: [Synth 8-6157] synthesizing module 'srldelay' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/srldelay.v:70]
 INFO: [Synth 8-6157] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131644]
 INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131644]
-INFO: [Synth 8-6155] done synthesizing module 'srldelay' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/srldelay.v:70]
-INFO: [Synth 8-6157] synthesizing module 'encode' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
-INFO: [Synth 8-6155] done synthesizing module 'encode' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
-INFO: [Synth 8-6157] synthesizing module 'encode__parameterized0' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
-INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized0' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
-INFO: [Synth 8-6157] synthesizing module 'encode__parameterized1' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
-INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized1' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
-INFO: [Synth 8-6157] synthesizing module 'serdes_10_to_1' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'srldelay' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'encode' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized0' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized0' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized1' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized1' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'serdes_10_to_1' [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/serdes_10_to_1.v:43]
 INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
 INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
 INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
 INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
-INFO: [Synth 8-6155] done synthesizing module 'serdes_10_to_1' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6155] done synthesizing module 'serdes_10_to_1' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/serdes_10_to_1.v:43]
 INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90676]
 INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90676]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_v1_0' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/hdmi_tx_v1_0.v:70]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_1' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/synth/hdmi_tx_1.v:53]
-INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:10]
-INFO: [Synth 8-6155] done synthesizing module 'mb_block_hdmi_text_controller_0_0' (0#1) [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/synth/mb_block_hdmi_text_controller_0_0.sv:53]
-WARNING: [Synth 8-6014] Unused sequential element bram_read_en_reg was removed.  [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0_AXI.sv:468]
-WARNING: [Synth 8-3936] Found unconnected internal register 'code_reg' and it is trimmed from '8' to '7' bits. [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/Color_Mapper.sv:32]
-WARNING: [Synth 8-6014] Unused sequential element hdmi_ctl1_reg was removed.  [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/hdmi_tx_v1_0.v:148]
-WARNING: [Synth 8-3936] Found unconnected internal register 'bg_palette_reg_reg' and it is trimmed from '32' to '28' bits. [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:249]
-WARNING: [Synth 8-3936] Found unconnected internal register 'fg_palette_reg_reg' and it is trimmed from '32' to '28' bits. [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:248]
-WARNING: [Synth 8-87] always_comb on 'fgd_idx_reg' did not result in combinational logic [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:235]
-WARNING: [Synth 8-87] always_comb on 'bgd_idx_reg' did not result in combinational logic [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:236]
-WARNING: [Synth 8-87] always_comb on 'fg_bright_reg' did not result in combinational logic [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:237]
-WARNING: [Synth 8-87] always_comb on 'bg_bright_reg' did not result in combinational logic [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:238]
-WARNING: [Synth 8-7129] Port DrawX[9] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawX[8] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawX[7] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawX[6] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawX[5] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawX[4] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawX[3] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawY[9] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawY[8] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawY[7] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawY[6] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawY[5] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DrawY[4] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[23] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[22] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[21] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[20] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[19] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[18] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[17] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[16] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[7] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[6] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[5] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[4] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[3] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[2] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[1] in module color_mapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port vram_data[0] in module color_mapper is either unconnected or has no load
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_v1_0' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/hdmi_tx_v1_0.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_1' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/synth/hdmi_tx_1.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:10]
+INFO: [Synth 8-6155] done synthesizing module 'mb_block_hdmi_text_controller_0_0' (0#1) [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/synth/mb_block_hdmi_text_controller_0_0.sv:53]
+WARNING: [Synth 8-6014] Unused sequential element hdmi_ctl1_reg was removed.  [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/hdmi_tx_1/hdl/hdmi_tx_v1_0.v:148]
+WARNING: [Synth 8-3936] Found unconnected internal register 'selected_palette_reg_reg' and it is trimmed from '32' to '25' bits. [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/e407/src/hdmi_text_controller_v1_0.sv:226]
 WARNING: [Synth 8-7129] Port CLKB in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port SBITERR_I in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port DBITERR_I in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[18] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[17] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[16] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[15] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[14] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[13] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[12] in module blk_mem_output_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[11] in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port RDADDRECC_I[10] in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port RDADDRECC_I[9] in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port RDADDRECC_I[8] in module blk_mem_output_block is either unconnected or has no load
@@ -245,133 +197,151 @@ WARNING: [Synth 8-7129] Port RDADDRECC_I[3] in module blk_mem_output_block is ei
 WARNING: [Synth 8-7129] Port RDADDRECC_I[2] in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port RDADDRECC_I[1] in module blk_mem_output_block is either unconnected or has no load
 WARNING: [Synth 8-7129] Port RDADDRECC_I[0] in module blk_mem_output_block is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized0 is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper is either unconnected or has no load
-WARNING: [Synth 8-7129] Port REGCEA[0] in module blk_mem_gen_generic_cstr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port RSTB[0] in module blk_mem_gen_generic_cstr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_generic_cstr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_generic_cstr is either unconnected or has no load
-WARNING: [Synth 8-7129] Port RSTA in module blk_mem_input_block is either unconnected or has no load
-WARNING: [Synth 8-7129] Port REGCEA in module blk_mem_input_block is either unconnected or has no load
-WARNING: [Synth 8-7129] Port RSTB in module blk_mem_input_block is either unconnected or has no load
-WARNING: [Synth 8-7129] Port REGCEB in module blk_mem_input_block is either unconnected or has no load
-WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_input_block is either unconnected or has no load
-WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_input_block is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AClk in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_ARESETN in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWID[3] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWID[2] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWID[1] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWID[0] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[31] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[30] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[29] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[28] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[27] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[26] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[25] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[24] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[23] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[22] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[21] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[20] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[19] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[18] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[17] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[16] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[15] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[14] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[13] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[12] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[11] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[10] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[9] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[8] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
-WARNING: [Synth 8-7129] Port S_AXI_AWADDR[7] in module blk_mem_gen_v8_4_5_synth is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized73 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized72 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized71 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized70 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized69 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized68 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized67 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized66 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper__parameterized65 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper__parameterized64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper__parameterized64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper__parameterized64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper__parameterized64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper__parameterized64 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper__parameterized64 is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 2158.953 ; gain = 746.277
+Finished RTL Elaboration : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 2158.953 ; gain = 746.277
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 2158.953 ; gain = 746.277
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 2158.953 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 1601.480 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 80 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.xdc] for cell 'inst/clk_wiz/inst'
-Finished Parsing XDC File [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.xdc] for cell 'inst/clk_wiz/inst'
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mb_block_hdmi_text_controller_0_0_propImpl.xdc].
+Parsing XDC File [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.xdc] for cell 'inst/clk_wiz/inst'
+Finished Parsing XDC File [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.xdc] for cell 'inst/clk_wiz/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/KCDro/uiuc/385_final/lab_72/lab_72.gen/sources_1/bd/mb_block/ip/mb_block_hdmi_text_controller_0_0/src/clk_wiz_1/clk_wiz_1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mb_block_hdmi_text_controller_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/mb_block_hdmi_text_controller_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Timing 38-2] Deriving generated clocks
-Parsing XDC File [C:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [C:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mb_block_hdmi_text_controller_0_0_propImpl.xdc].
+Parsing XDC File [C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mb_block_hdmi_text_controller_0_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/mb_block_hdmi_text_controller_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2170.609 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1601.480 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 2170.785 ; gain = 0.176
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.103 . Memory (MB): peak = 1601.480 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Constraint Validation : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s50csga324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst/clk_wiz/inst. (constraint file  C:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/dont_touch.xdc, line 17).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/clk_wiz/inst. (constraint file  C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/dont_touch.xdc, line 17).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/bram_inst/bram. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/clk_wiz. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/vga_to_hdmi. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-327] inferring latch for variable 'fgd_idx_reg' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:235]
-WARNING: [Synth 8-327] inferring latch for variable 'fg_bright_reg' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:237]
-WARNING: [Synth 8-327] inferring latch for variable 'bgd_idx_reg' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:236]
-WARNING: [Synth 8-327] inferring latch for variable 'bg_bright_reg' [c:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.gen/sources_1/bd/mb_block/ipshared/8a03/src/hdmi_text_controller_v1_0.sv:238]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
+	   2 Input   32 Bit       Adders := 2     
 	   2 Input   11 Bit       Adders := 2     
 	   2 Input   10 Bit       Adders := 2     
 	   5 Input    5 Bit       Adders := 6     
@@ -381,29 +351,28 @@ Detailed RTL Component Info :
 +---XORs : 
 	   2 Input      1 Bit         XORs := 42    
 +---Registers : 
-	               32 Bit    Registers := 10    
-	               14 Bit    Registers := 2     
-	               11 Bit    Registers := 1     
+	               32 Bit    Registers := 9     
+	               19 Bit    Registers := 3     
 	               10 Bit    Registers := 5     
 	                9 Bit    Registers := 3     
-	                8 Bit    Registers := 3     
+	                8 Bit    Registers := 6     
 	                5 Bit    Registers := 3     
-	                4 Bit    Registers := 16    
-	                2 Bit    Registers := 2     
-	                1 Bit    Registers := 43    
+	                4 Bit    Registers := 15    
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 45    
 +---Muxes : 
-	   2 Input   32 Bit        Muxes := 20    
+	   2 Input   32 Bit        Muxes := 2     
 	   4 Input   32 Bit        Muxes := 1     
-	   2 Input   12 Bit        Muxes := 2     
-	   2 Input   11 Bit        Muxes := 1     
+	   2 Input   19 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
 	   2 Input   10 Bit        Muxes := 6     
 	  22 Input   10 Bit        Muxes := 1     
 	   4 Input   10 Bit        Muxes := 2     
-	   2 Input    8 Bit        Muxes := 43    
-	   2 Input    7 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 3     
 	   2 Input    5 Bit        Muxes := 12    
-	   2 Input    4 Bit        Muxes := 14    
-	   2 Input    1 Bit        Muxes := 34    
+	   2 Input    4 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 311   
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -420,87 +389,24 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[31]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[30]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[29]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[28]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[27]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[26]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[25]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[24]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[23]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[22]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[21]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[20]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[19]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[18]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[17]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[16]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[15]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[14]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[13]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[12]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[11]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[10]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[9]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[8]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[7]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[6]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[5]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[4]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[3]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[2]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[1]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fgd_idx_reg[0]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/fg_bright_reg) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[31]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[30]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[29]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[28]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[27]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[26]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[25]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[24]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[23]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[22]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[21]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[20]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[19]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[18]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[17]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[16]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[15]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[14]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[13]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[12]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[11]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[10]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[9]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[8]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[7]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[6]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[5]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[4]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[3]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[2]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[1]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bgd_idx_reg[0]) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
-INFO: [Synth 8-3332] Sequential element (inst/bg_bright_reg) is unused and will be removed from module mb_block_hdmi_text_controller_0_0.
+DSP Report: Generating DSP inst/addrb0, operation Mode is: C+A*(B:0x280).
+DSP Report: operator inst/addrb0 is absorbed into DSP inst/addrb0.
+DSP Report: operator inst/addrb1 is absorbed into DSP inst/addrb0.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:55 ; elapsed = 00:01:01 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
-ROM: Preliminary Mapping Report
-+-------------+-------------------+---------------+----------------+
-|Module Name  | RTL Object        | Depth x Width | Implemented As | 
-+-------------+-------------------+---------------+----------------+
-|font_rom     | ROM               | 2048x8        | LUT            | 
-|color_mapper | font_rom_inst/ROM | 2048x8        | LUT            | 
-+-------------+-------------------+---------------+----------------+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++--------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name               | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|hdmi_text_controller_v1_0 | C+A*(B:0x280) | 10     | 10     | 10     | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++--------------------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
@@ -508,19 +414,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:01 ; elapsed = 00:01:07 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:54 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:10 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:04 ; elapsed = 00:01:10 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:55 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -538,37 +444,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -588,6 +494,14 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
+DSP Final Report (the ' indicates corresponding REG is set)
++--------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name               | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|hdmi_text_controller_v1_0 | C+A*B       | 10     | 10     | 10     | -      | 11     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++--------------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
 Report BlackBoxes: 
 +-+--------------+----------+
 | |BlackBox name |Instances |
@@ -600,48 +514,48 @@ Report Cell Usage:
 +------+-----------+------+
 |1     |BUFG       |     3|
 |2     |CARRY4     |    11|
-|3     |LUT1       |     3|
-|4     |LUT2       |    16|
-|5     |LUT3       |    73|
-|6     |LUT4       |    77|
-|7     |LUT5       |   242|
-|8     |LUT6       |   612|
-|9     |MMCME2_ADV |     1|
-|10    |MUXF7      |    68|
-|11    |MUXF8      |     8|
+|3     |DSP48E1    |     1|
+|4     |LUT1       |     7|
+|5     |LUT2       |    18|
+|6     |LUT3       |    56|
+|7     |LUT4       |    55|
+|8     |LUT5       |   120|
+|9     |LUT6       |   282|
+|10    |MMCME2_ADV |     1|
+|11    |MUXF7      |    12|
 |12    |OSERDESE2  |     8|
-|14    |RAMB36E1   |     2|
+|14    |RAMB36E1   |     1|
 |15    |SRL16E     |    39|
-|16    |FDCE       |    66|
-|17    |FDRE       |   510|
+|16    |FDCE       |    64|
+|17    |FDRE       |   500|
 |18    |FDSE       |     1|
 |19    |IBUF       |     1|
 |20    |OBUFDS     |     4|
 +------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:15 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.480 ; gain = 819.824
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 186 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:42 ; elapsed = 00:01:11 . Memory (MB): peak = 2170.785 ; gain = 746.277
-Synthesis Optimization Complete : Time (s): cpu = 00:01:09 ; elapsed = 00:01:15 . Memory (MB): peak = 2170.785 ; gain = 758.109
+Synthesis finished with 0 errors, 0 critical warnings and 141 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:55 . Memory (MB): peak = 1601.480 ; gain = 819.824
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:00:58 . Memory (MB): peak = 1601.480 ; gain = 819.824
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2170.785 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 94 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1601.480 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 30 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2170.785 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1601.480 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: ae551b07
+Synth Design complete, checksum: d7657921
 INFO: [Common 17-83] Releasing license: Synthesis
-148 Infos, 125 Warnings, 0 Critical Warnings and 0 Errors encountered.
+79 Infos, 123 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:14 ; elapsed = 00:01:22 . Memory (MB): peak = 2170.785 ; gain = 1134.957
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/mb_block_hdmi_text_controller_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_block_hdmi_text_controller_0_0, cache-ID = 4e88ba60a7123766
-INFO: [Coretcl 2-1174] Renamed 25 cell refs.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Samwa/ALL_ece385/ECE385_github/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/mb_block_hdmi_text_controller_0_0.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:58 ; elapsed = 00:01:03 . Memory (MB): peak = 1601.480 ; gain = 1195.238
+INFO: [Common 17-1381] The checkpoint 'C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/mb_block_hdmi_text_controller_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_block_hdmi_text_controller_0_0, cache-ID = 89e74d47898b907d
+INFO: [Coretcl 2-1174] Renamed 23 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/KCDro/uiuc/385_final/lab_72/lab_72.runs/mb_block_hdmi_text_controller_0_0_synth_1/mb_block_hdmi_text_controller_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file mb_block_hdmi_text_controller_0_0_utilization_synth.rpt -pb mb_block_hdmi_text_controller_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Nov  7 03:08:35 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 13 18:14:44 2025...
